@@ -1,0 +1,30 @@
+body {
+    margin:auto;
+    width:70%;
+    background-color: aquamarine;
+}
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    margin-top: 1.5em;
+}
+h1 {
+    font-size:32px;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+figcaption {
+    font-style:italic;
+    color: brown;
+}
+img {
+    float:right;
+    cursor: pointer;
+    transition: all 0.6s ;
+}
+img:hover {
+    background: purple;
+    box-shadow: 0 4px 16px;
+    border-radius: 40px;
+}
